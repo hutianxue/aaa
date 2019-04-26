@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper SYSTEM "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.buba.mapper.MmDocDirectoryMapper">
+<resultMap id="BaseResultMap" type="com.buba.bean.MmDocDirectory">
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="PARENT_ID" jdbcType="INTEGER" property="parentId" />
+    <result column="NODE_ORDER" jdbcType="INTEGER" property="nodeOrder" />
+    <result column="GROUP_NAME" jdbcType="VARCHAR" property="groupName" />
+  </resultMap>
+	<select id="findAllDoc" resultMap="BaseResultMap">
+		SELECT * FROM mm_doc_directory
+	</select>
+</mapper>

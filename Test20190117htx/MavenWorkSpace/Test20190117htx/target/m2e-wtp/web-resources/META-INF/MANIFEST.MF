@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: Test20190117htx
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Mr.Wang
+Implementation-Vendor-Id: com.buba
+Build-Jdk: 1.8.0_111
+Implementation-URL: http://projects.spring.io/spring-boot/Test20190117
+ htx/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
